@@ -1,8 +1,3 @@
-/**
- * @author wufeng
- * @description 带动画的Modal
- * @date 2020-04-21
- */
 
 import React, { Component } from 'react';
 import {
@@ -63,7 +58,7 @@ const { width, height } = Dimensions.get('screen');
 
 
 /**
- * 带动画的Modal
+ * Modal，支持入场动画和内容位置的组合。
  * 
  * Usage:
  * ```
@@ -81,6 +76,8 @@ const { width, height } = Dimensions.get('screen');
  *   </AnimatedModal>
  * ```
  * 
+ * @author wufeng
+ * @date 2020-04-21
  */
 class AnimatedModal extends Component<Props, State> {
     static defaultProps = {

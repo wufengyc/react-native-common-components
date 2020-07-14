@@ -44,5 +44,13 @@
   "files": [
     "/index.js",
     "/libs"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wufengyc/react-native-common-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wufengyc/react-native-common-components/issues"
+  },
+  "homepage": "https://github.com/wufengyc/react-native-common-components#readme"
 }
