@@ -2,10 +2,8 @@
  * @format
  */
 
-import Test from "./libs/Test";
-import AnimatedModal from "./libs/modal/AnimatedModal";
+import {AppRegistry} from 'react-native';
+import App from './App';
+import {name as appName} from './app.json';
 
-export {
-    Test,
-    AnimatedModal,
-}
+AppRegistry.registerComponent(appName, () => App);
