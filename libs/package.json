@@ -1,0 +1,26 @@
+{
+  "name": "react-native-wf-common-components",
+  "version": "1.0.1",
+  "private": false,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wufengyc",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wufengyc/react-native-common-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wufengyc/react-native-common-components/issues"
+  },
+  "homepage": "https://github.com/wufengyc/react-native-common-components#readme",
+  "keywords": [
+    "react-native",
+    "react-native-common",
+    "react-native-common-components",
+    "react-native-components"
+  ]
+}
