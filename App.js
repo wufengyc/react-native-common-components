@@ -15,6 +15,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import ModalExample from './example/ModalExample';
 
 import {
   Header,
@@ -27,7 +28,8 @@ import {
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <ModalExample/>
+      {/* <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
@@ -67,7 +69,7 @@ const App: () => React$Node = () => {
             <LearnMoreLinks />
           </View>
         </ScrollView>
-      </SafeAreaView>
+      </SafeAreaView> */}
     </>
   );
 };
