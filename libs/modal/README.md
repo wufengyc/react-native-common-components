@@ -1,7 +1,7 @@
 # AnimatedModal
 其实就是一个Modal，但是对react-native提供的Modal进行了封装。
 加入了动画效果、内容位置等功能，使展示效果更完美。
-<img src="../imgs/animated_modal.gif" alt="默认效果" style="zoom:75%;" />
+<img src="../imgs/animated_modal.gif" alt="gif展示" style="zoom:75%;" />
 
 **支持的动画效果**：
 - 淡入/淡出
@@ -25,10 +25,9 @@
 
 ----
 ### 实例
-1. 默认效果（动画“下进下出”，内容位置在中间）
+- 默认效果（动画“下进下出”，内容位置在中间
 <img src="../imgs/1.jpg" alt="默认效果" style="zoom:20%;" />
-
-```typescript
+```
 <AnimatedModal
     visible={visible1}
     onHide={() => this.onHide(1)}
@@ -37,10 +36,9 @@
 </AnimatedModal>
 ```
 
-2. 动画“左进左出”，内容位置在下方
-<img src="../imgs/2.jpg" alt="默认效果" style="zoom:20%;" />
-
-```typescript
+- 动画“左进左出”，内容位置在下方
+<img src="../imgs/2.jpg" style="zoom:20%;" />
+```
 <AnimatedModal
   visible={visible2}
   transition="left-in"
@@ -51,10 +49,9 @@
 </AnimatedModal>
 ```
 
-3. 偏移（相对屏幕向下偏移）
-<img src="../imgs/5.jpg" alt="默认效果" style="zoom:20%;" />
-
-```typescript
+- 偏移（相对屏幕向下偏移）
+<img src="../imgs/5.jpg" style="zoom:20%;" />
+```
 <AnimatedModal
   visible={visible5}
   transition="top-in"
@@ -66,12 +63,12 @@
 </AnimatedModal>
 ```
 
-4. 其它效果
+- 其它效果
 上进上出、内容位置上方（transition="top-in"，position="top"）
 右进右出、内容位置右边（transition="right-in"，position="right"）
-<img src="../imgs/3.jpg" alt="默认效果" style="zoom:20%;" /><img src="../imgs/4.jpg" alt="默认效果" style="zoom:20%;" />
+<img src="../imgs/3.jpg"  style="zoom:20%;" /><img src="../imgs/4.jpg" alt="默认效果" style="zoom:20%;" />
 
-5. 当然你也可以根据自己的需要，自由组合动画、位置、偏移
+- 当然你也可以根据自己的需要，自由组合动画、位置、偏移
 
 ---
 ### 属性
@@ -164,6 +161,7 @@
 关于偏移：
 背景相对于屏幕向左、上、右、下都偏移100px
 内容相对于背景向左、上、右都偏移50px（该功能暂时未开发）
+```
 offset={{
   background: {
     left: 100,
@@ -173,8 +171,9 @@ offset={{
   },
   content: { left: 50, top: 50, right: 50 },
 }}
+```
 效果图如下：
-<img src="../imgs/6.jpg" alt="默认效果" style="zoom:20%;" />
+<img src="../imgs/6.jpg" style="zoom:20%;" />
 
 ---
 ### 方法
@@ -194,3 +193,7 @@ offset={{
 </table>
 
 
+
+```
+
+```
