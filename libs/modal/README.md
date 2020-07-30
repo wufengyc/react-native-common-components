@@ -27,8 +27,8 @@
 ### 实例
 1. 默认效果（动画“下进下出”，内容位置在中间）
 <img src="../imgs/1.jpg" alt="默认效果" style="zoom:20%;" />
+
 ```typescript
-{/* 默认，下进下出，内容位置中间 */}
 <AnimatedModal
     visible={visible1}
     onHide={() => this.onHide(1)}
@@ -39,8 +39,8 @@
 
 2. 动画“左进左出”，内容位置在下方
 <img src="../imgs/2.jpg" alt="默认效果" style="zoom:20%;" />
+
 ```typescript
-{/* 左进左出，内容位置下方 */}
 <AnimatedModal
   visible={visible2}
   transition="left-in"
@@ -53,9 +53,8 @@
 
 3. 偏移（相对屏幕向下偏移）
 <img src="../imgs/5.jpg" alt="默认效果" style="zoom:20%;" />
+
 ```typescript
-{/* 左进左出，内容位置下方 */}
-{/* 背景偏移 */}
 <AnimatedModal
   visible={visible5}
   transition="top-in"
