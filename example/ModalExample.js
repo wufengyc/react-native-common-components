@@ -117,10 +117,10 @@ export default class ModalExample extends Component {
                   visible={visible5}
                   transition="top-in"
                   position="top"
-                  offset={{ background: { top: 100 } }}
+                  offset={{ background: { top: 100, left: 100, right: 100, bottom: 100 } }}
                   onHide={() => this.onHide(5)}
                 >
-                  <View style={{ width: width, height: 200, backgroundColor: '#FFFFFF' }} />
+                  <View style={{ width: width, height: 100, backgroundColor: '#FFFFFF' }} />
                 </AnimatedModal>
             </ScrollView>
         )
