@@ -31,7 +31,7 @@
 - 默认效果（动画“下进下出”，内容位置在中间
 <img src="../imgs/1.jpg" alt="默认效果" height=400 />
 
-```
+```javascript
 <AnimatedModal
     visible={visible1}
     onHide={() => this.onHide(1)}
@@ -43,7 +43,7 @@
 - 动画“左进左出”，内容位置在下方
 <img src="../imgs/2.jpg" height=400 />
 
-```
+```javascript
 <AnimatedModal
   visible={visible2}
   transition="left-in"
@@ -57,7 +57,7 @@
 - 偏移（相对屏幕向下偏移）
 <img src="../imgs/5.jpg" height=400 />
 
-```
+```javascript
 <AnimatedModal
   visible={visible5}
   transition="top-in"
@@ -171,7 +171,7 @@
 背景相对于屏幕向左、上、右、下都偏移100px
 内容相对于背景向左、上、右都偏移50px（该功能暂时未开发）
 
-```
+```javascript
 offset={{
   background: {
     left: 100,

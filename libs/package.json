@@ -2,7 +2,7 @@
   "name": "react-native-wf-common-components",
   "version": "1.0.3",
   "private": false,
-  "description": "",
+  "description": "ReactNative通用组件：在ReactNative项目开发过程中，经常会碰到一些非常通用的组件，所以这里封装出来使用。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
