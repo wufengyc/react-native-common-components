@@ -18,6 +18,7 @@
 - 内容偏移（暂未开发）
 
 **你可以根据自己的需要，自由组合动画、位置、偏移**
+
 例如：
 上进上出 + 内容位置右边 + 偏移
 右进右出 + 内容位置下方 + 偏移
@@ -27,6 +28,7 @@
 ### 实例
 - 默认效果（动画“下进下出”，内容位置在中间
 <img src="../imgs/1.jpg" alt="默认效果" height=400 />
+
 ```
 <AnimatedModal
     visible={visible1}
@@ -38,6 +40,7 @@
 
 - 动画“左进左出”，内容位置在下方
 <img src="../imgs/2.jpg" height=400 />
+
 ```
 <AnimatedModal
   visible={visible2}
@@ -51,6 +54,7 @@
 
 - 偏移（相对屏幕向下偏移）
 <img src="../imgs/5.jpg" height=400 />
+
 ```
 <AnimatedModal
   visible={visible5}
@@ -64,6 +68,7 @@
 ```
 
 - 其它效果
+
 上进上出、内容位置上方（transition="top-in"，position="top"）
 右进右出、内容位置右边（transition="right-in"，position="right"）
 <img src="../imgs/3.jpg"  height=400 /><img src="../imgs/4.jpg" height=400 />
@@ -133,7 +138,7 @@
       分为<font color="red">背景偏移</font>(background)和<br>
       <font color="red">内容偏移</font>(content 暂未开发)
     </td>
-    <td style="min-width:200px">
+    <td style="min-width:250px">
       <font color="red">background</font>?: {<br>
       &emsp;left?: number,<br>
       &emsp;top?: number,<br>
@@ -175,6 +180,7 @@ offset={{
 }}
 ```
 效果图如下：
+
 <img src="../imgs/6.jpg" height=400 />
 
 ---
