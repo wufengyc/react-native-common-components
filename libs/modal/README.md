@@ -1,5 +1,5 @@
 # AnimatedModal
-其实就是一个Modal，但是对react-native提供的Modal进行了封装。
+对react-native提供的Modal进行了封装。
 加入了动画效果、内容位置等功能，使展示效果更完美。
 <img src="../imgs/animated_modal.gif" alt="gif展示" style="zoom:75%;" />
 
