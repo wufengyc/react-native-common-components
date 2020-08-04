@@ -12,7 +12,7 @@
 ### 使用
 
 ```javascript
-import { AnimatedModal } from 'react-native-wf-common-components';
+import { AnimatedModal, ActionSheet } from 'react-native-wf-common-components';
 
 <AnimatedModal
   visible={visible5}
