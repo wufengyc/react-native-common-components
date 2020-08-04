@@ -101,7 +101,7 @@ class AnimatedModal extends Component<Props, State> {
         };
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         // modal状态有变化（显示/隐藏）
         if (nextProps.visible != undefined && this.props.visible != nextProps.visible) {
             if (nextProps.visible) { // 显示
@@ -194,7 +194,7 @@ class AnimatedModal extends Component<Props, State> {
             if (this.props.onHide) {
                 this.props.onHide();
             }
-        })
+        });
     }
 
     /* 空白区域点击 */
@@ -218,7 +218,7 @@ class AnimatedModal extends Component<Props, State> {
                 {this.renderBg()}
                 {this.renderContent()}
             </View>
-        )
+        );
     }
 
     /* 获取最外层容器/背景的偏移 */
@@ -230,14 +230,14 @@ class AnimatedModal extends Component<Props, State> {
             right: 0,
             bottom: 0,
             overflow: 'hidden',
-        }
+        };
         const { offset } = this.props;
         if (offset && offset.background) {
             Object.keys(offset.background).map(key => {
                 style[key] = offset.background[key];
-            })
+            });
         }
-        
+
         style.height = this.getBoxSize().height;
 
         return style;
@@ -459,6 +459,7 @@ class AnimatedModal extends Component<Props, State> {
         return (
             <Modal
                 visible={this.state.visible}
+                statusBarTranslucent={true}
                 transparent={true}
                 onRequestClose={() => this.hide()}>
                 {this.renderBox()}

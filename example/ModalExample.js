@@ -1,6 +1,6 @@
 /**
  * Sample React Native App
- * https://github.com/facebook/react-native
+ * https://github.com/wufengyc/react-native-common-components
  *
  * @format
  * @flow strict-local
@@ -16,7 +16,7 @@ import {
   Text,
   Dimensions,
 } from 'react-native';
-import { AnimatedModal } from '../libs/index';
+import { AnimatedModal } from 'react-native-wf-common-components';
 
 import {
   Colors,
@@ -117,7 +117,7 @@ export default class ModalExample extends Component {
                   visible={visible5}
                   transition="top-in"
                   position="top"
-                  offset={{ background: { top: 100, left: 100, right: 100, bottom: 100 } }}
+                  offset={{ background: { top: 100, left: 100 } }}
                   onHide={() => this.onHide(5)}
                 >
                   <View style={{ width: width, height: 100, backgroundColor: '#FFFFFF' }} />
