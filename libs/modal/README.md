@@ -1,7 +1,7 @@
 # AnimatedModal
 对react-native提供的Modal进行了封装。
 加入了动画效果、内容位置等功能，使展示效果更完美。
-<img src="../imgs/animated_modal.gif" alt="gif展示" style="zoom:75%;" />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/animated_modal.gif" height=400 />
 
 **支持的动画效果**：
 - 淡入/淡出
@@ -29,7 +29,7 @@
 ----
 ### 实例
 - 默认效果（动画“下进下出”，内容位置在中间
-<img src="../imgs/1.jpg" alt="默认效果" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/4.jpg" height=400 />
 
 ```javascript
 <AnimatedModal
@@ -41,7 +41,7 @@
 ```
 
 - 动画“左进左出”，内容位置在下方
-<img src="../imgs/2.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/5.jpg" height=400 />
 
 ```javascript
 <AnimatedModal
@@ -55,7 +55,7 @@
 ```
 
 - 偏移（相对屏幕向下偏移）
-<img src="../imgs/5.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/8.jpg" height=400 />
 
 ```javascript
 <AnimatedModal
@@ -75,7 +75,7 @@
 
 右进右出、内容位置右边（transition="right-in"，position="right"）
 
-<img src="../imgs/3.jpg"  height=400 /><img src="../imgs/4.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/6.jpg" height=400 /> <img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/7.jpg" height=400 />
 
 - 当然你也可以根据自己的需要，自由组合动画、位置、偏移
 
@@ -184,7 +184,7 @@ offset={{
 ```
 效果图如下：
 
-<img src="../imgs/6.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/9.jpg" height=400 />
 
 ---
 ### 方法
@@ -198,7 +198,7 @@ hide  | 隐藏弹窗
 
 有了AnimatedModal后，咱们可以在这个基础上开发一些特定的弹窗
 # ActionSheetModal
-<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 /><img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/1.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 /> <img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/1.jpg" height=400 />
 
 ```javascript
 this.actionSheet.show();

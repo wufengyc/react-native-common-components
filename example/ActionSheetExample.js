@@ -13,7 +13,7 @@ import {
   TouchableOpacity,
   Text,
 } from 'react-native';
-import { ActionSheet } from '../libs/index';
+import { ActionSheet } from 'react-native-wf-common-components';
 
 import {
   Colors,

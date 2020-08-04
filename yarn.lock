@@ -5695,10 +5695,10 @@ react-native-typescript-transformer@^1.2.13:
     semver "^5.4.1"
     source-map "^0.5.6"
 
-react-native-wf-common-components@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-wf-common-components/-/react-native-wf-common-components-1.0.4.tgz#1831f639c00e40d616c346800f079516cfa9682a"
-  integrity sha512-odvqy7SqBO39ZesIHdnetGHMD5efd2sbVfFMoft0o9+cb1KayPBoJ050U1/bSMSgaLtyvDhJLLPp3F/FmC5EMw==
+react-native-wf-common-components@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-wf-common-components/-/react-native-wf-common-components-1.0.5.tgz#6dcf4c336694245b3892b70d1d26fee70b13ce3f"
+  integrity sha512-GHfOjyyJDoOS0pFkcJhKhuIiooyDJcUqZ74LI8iji3wXh5OcD1n2+HXxsI5EEHMRIyp9XkBGjcVgbpggkQd4yA==
 
 react-native@0.63.0:
   version "0.63.0"

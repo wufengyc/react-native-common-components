@@ -33,5 +33,5 @@ import { AnimatedModal, ActionSheet } from 'react-native-wf-common-components';
 对react-native提供的Modal进行了封装。
 加入了动画效果、内容位置等功能，使展示效果更完美。
 
-<img src="https://github.com/wufengyc/react-native-common-components/blob/master/libs/imgs/animated_modal.gif" height=400 /> <img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/animated_modal.gif" height=400 /> <img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 />
 
