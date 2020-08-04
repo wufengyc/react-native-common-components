@@ -242,5 +242,5 @@ key              | key                                                         |
 value          | 展示的值                                                 | string              | 必须
 o                 | 任意对象，保存需要的其它数据          | any                   | 非必须
 
-<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/4.jpg" height=200 />
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/3.jpg" height=200 />
 
