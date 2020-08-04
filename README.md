@@ -35,4 +35,4 @@ import { AnimatedModal } from 'react-native-wf-common-components';
 
 <img src="https://github.com/wufengyc/react-native-common-components/blob/master/libs/imgs/animated_modal.gif" style="zoom:75%;" />
 
-
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 />

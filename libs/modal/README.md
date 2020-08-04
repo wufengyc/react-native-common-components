@@ -194,3 +194,53 @@ offset={{
 show | 展示弹窗
 hide  | 隐藏弹窗
 
+
+
+有了AnimatedModal后，咱们可以在这个基础上开发一些特定的弹窗
+# ActionSheetModal
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/2.jpg" height=400 /><img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/1.jpg" height=400 />
+
+```javascript
+this.actionSheet.show();
+
+<ActionSheet
+  ref={(ref) => { this.actionSheet = ref; }}
+  actions={[
+    {key: 'follow', value: '关注'},
+    {key: 'complaint', value: '投诉'},
+  ]}
+  onSelected={this.onSelected}
+>
+```
+
+### 属性
+
+Props          | 备注                                                                          | type                    | 是否必须
+-----   | ------ | ----- | ------
+actions        | action列表                                                               | Action[]               | 必须
+division       | 是否展示分割线                                                       | boolean              | 非必须，默认true
+cancelText  | 取消按钮的文字，如果没有，则不展示取消按钮 | string                   |非必须，默认“取消”
+onSelected | 选择之后的回调                                                       | (Action) => void  | 非必须
+style            | ActionSheet最外层样式                                          | ViewStyle            |非必须
+sheetAreaStyle  | 选择区域的外层样式                                        | ViewStyle            |非必须
+sheetStyle   | 单条选择项的样式                                                   | ViewStyle            |非必须
+cancelSheetStyle | 取消按钮选择项的样式                                  | ViewStyle            |非必须
+bottomFixView    | 最下方的控件                                                  | JSX.Element        |非必须
+
+
+### 方法
+
+方法   | 备注 | 参数 | 参数是否必须
+------   | ------|------|------
+show | 展示|Action[]| 非必须
+hide  | 隐藏|无|无
+
+__Action__
+key             | 备注                                                       | type                 | 是否必须
+-----   | ------ | ----- | ------
+key              | key                                                         | string               | 必须
+value          | 展示的值                                                 | string              | 必须
+o                 | 任意对象，保存需要的其它数据          | any                   | 非必须
+
+<img src="https://github.com/wufengyc/react-native-common-components/blob/master/example/imgs/4.jpg" height=200 />
+
